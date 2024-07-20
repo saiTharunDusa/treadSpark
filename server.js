@@ -18,6 +18,7 @@ connectDB();
 
 //rest object
 const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.__dirname(__filename);
 const app = express();
 
 //middelwares
